@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    background-color: #222222;
+}
+
+.title {
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
+img {
+    margin: 15px auto;
+    display: block;
+}
+
+.pokedex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pokedex {
+    width: 350px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search-input, #search-button {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.pokedex div {
+    margin: 8px;
+    padding: 5px;
+}
+
+#pokemon-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sprite-container {
+    margin: 0;
+    padding: 0;
+}
+
+#sprite {
+    margin: 0 auto;
+}
+
+.types {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
